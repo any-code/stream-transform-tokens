@@ -13,7 +13,13 @@
     "type": "git",
     "url": "git+https://github.com/any-code/stream-transform-tokens.git"
   },
-  "keywords": ["stream-transform-tokens"],
+  "keywords": [
+    "stream-transform-tokens",
+    "replace",
+    "tokens",
+    "stream",
+    "transform"
+  ],
   "author": "Lee Tagg <lee@anycode.io>",
   "license": "ISC",
   "bugs": {
@@ -22,5 +28,8 @@
   "homepage": "https://github.com/any-code/stream-transform-tokens#readme",
   "devDependencies": {
     "nodeunit": "^0.9.1"
+  },
+  "dependencies": {
+    "javascript-object-paraphernalia": "^1.0.7"
   }
 }

@@ -1,0 +1,7 @@
+{
+  "generator-anycode": {
+    "name": "stream-transform-tokens",
+    "description": "stream transform tokens with replacement values",
+    "github": true
+  }
+}

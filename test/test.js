@@ -28,17 +28,3 @@ exports.test = function(test) {
     test.done();
   })
 }
-
-var readStream = fs.createReadStream('test.html'),
-    replaceTokens = require('../index')({
-      leftMask: "{{",
-      rightMask: "}}",
-      tokens: {
-        user_name: "Barry",
-        host: "http://example.com"
-      }
-    })
-
-readStream
-  .pipe(replaceTokens)
-  .pipe(process.stdout)
